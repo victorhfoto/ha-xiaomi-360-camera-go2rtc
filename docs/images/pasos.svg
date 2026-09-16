@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 250" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="960" height="250" fill="#ffffff"/>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Resumen del proceso</text>
+  <g font-size="13" text-anchor="middle">
+    <g>
+      <rect x="20" y="70" width="160" height="120" rx="12" fill="#eef2ff" stroke="#4f46e5"/>
+      <circle cx="100" cy="98" r="16" fill="#4f46e5"/><text x="100" y="103" fill="#fff" font-weight="700">1</text>
+      <text x="100" y="138" fill="#1e1b4b" font-weight="700">Instalar</text>
+      <text x="100" y="158" fill="#1e1b4b">go2rtc (master)</text>
+    </g>
+    <line x1="182" y1="130" x2="206" y2="130" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+    <g>
+      <rect x="208" y="70" width="160" height="120" rx="12" fill="#eef2ff" stroke="#4f46e5"/>
+      <circle cx="288" cy="98" r="16" fill="#4f46e5"/><text x="288" y="103" fill="#fff" font-weight="700">2</text>
+      <text x="288" y="138" fill="#1e1b4b" font-weight="700">Login Xiaomi</text>
+      <text x="288" y="158" fill="#1e1b4b">código por email</text>
+      <text x="288" y="176" fill="#1e1b4b">región correcta</text>
+    </g>
+    <line x1="370" y1="130" x2="394" y2="130" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+    <g>
+      <rect x="396" y="70" width="160" height="120" rx="12" fill="#eef2ff" stroke="#4f46e5"/>
+      <circle cx="476" cy="98" r="16" fill="#4f46e5"/><text x="476" y="103" fill="#fff" font-weight="700">3</text>
+      <text x="476" y="138" fill="#1e1b4b" font-weight="700">Crear streams</text>
+      <text x="476" y="158" fill="#1e1b4b">original + H.264</text>
+    </g>
+    <line x1="558" y1="130" x2="582" y2="130" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+    <g>
+      <rect x="584" y="70" width="160" height="120" rx="12" fill="#eef2ff" stroke="#4f46e5"/>
+      <circle cx="664" cy="98" r="16" fill="#4f46e5"/><text x="664" y="103" fill="#fff" font-weight="700">4</text>
+      <text x="664" y="138" fill="#1e1b4b" font-weight="700">Generic Camera</text>
+      <text x="664" y="158" fill="#1e1b4b">en Home Assistant</text>
+    </g>
+    <line x1="746" y1="130" x2="770" y2="130" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+    <g>
+      <rect x="772" y="70" width="168" height="120" rx="12" fill="#ecfdf5" stroke="#059669"/>
+      <circle cx="856" cy="98" r="16" fill="#059669"/><text x="856" y="103" fill="#fff" font-weight="700">5</text>
+      <text x="856" y="138" fill="#064e3b" font-weight="700">Ver y proteger</text>
+      <text x="856" y="158" fill="#064e3b">paneles, tablets,</text>
+      <text x="856" y="176" fill="#064e3b">contraseña API</text>
+    </g>
+  </g>
+  <text x="480" y="228" text-anchor="middle" font-size="13" fill="#475569">Tiempo aproximado: 20–30 minutos. No hace falta abrir la cámara ni cambiar su firmware.</text>
+</svg>

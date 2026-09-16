@@ -1,0 +1,22 @@
+# Ejemplo de /config/www/custom-sidebar-config.yaml (Custom Sidebar, HACS)
+# Muestra "Medios" a los usuarios no administradores (p. ej. tablets de pared)
+# para que puedan abrir Medios → Cámara.
+
+title: Casa
+order:
+  - item: Vista General
+    hide: false
+
+exceptions:
+  - is_admin: false
+    extend_from: base
+    title: Home Assistant
+    order:
+      - item: Backups
+        hide: true
+      - item: Historial
+        hide: true
+      - item: HACS
+        hide: true
+      - item: Medios
+        hide: false   # antes estaba en true

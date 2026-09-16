@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="960" height="430" fill="#ffffff"/>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">¿Por qué fallan los métodos habituales?</text>
+
+  <g font-size="14">
+    <!-- row 1 -->
+    <rect x="30" y="64" width="900" height="72" rx="10" fill="#fef2f2" stroke="#dc2626"/>
+    <text x="50" y="92" font-weight="700" fill="#7f1d1d">✗  Integración Xiaomi Miot (vídeo desde la nube)</text>
+    <text x="50" y="118" fill="#7f1d1d">Enlace m3u8 que caduca en minutos, vídeo corrupto o bucles de pocos segundos.</text>
+
+    <rect x="30" y="148" width="900" height="72" rx="10" fill="#fef2f2" stroke="#dc2626"/>
+    <text x="50" y="176" font-weight="700" fill="#7f1d1d">✗  Hacks por tarjeta SD (RTSP en la cámara)</text>
+    <text x="50" y="202" fill="#7f1d1d">Solo funcionan con firmware antiguo (3.4.2_0062). Con firmware 4.x no se puede bajar de versión.</text>
+
+    <rect x="30" y="232" width="900" height="72" rx="10" fill="#fffbeb" stroke="#d97706"/>
+    <text x="50" y="260" font-weight="700" fill="#78350f">△  Flasheo por UART (abrir la cámara)</text>
+    <text x="50" y="286" fill="#78350f">Posible, pero requiere soldar/conectar un adaptador serie, anula garantía y puede inutilizarla.</text>
+
+    <rect x="30" y="316" width="900" height="80" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+    <text x="50" y="344" font-weight="700" fill="#064e3b">✓  go2rtc con fuente «xiaomi» (la de esta guía)</text>
+    <text x="50" y="370" fill="#064e3b">Habla el protocolo nativo de la app Mi Home en local. Sin tocar la cámara ni su firmware.</text>
+    <text x="50" y="388" font-size="12" fill="#065f46">La compatibilidad depende del modelo: consulta la lista de cámaras conocidas de go2rtc.</text>
+  </g>
+</svg>

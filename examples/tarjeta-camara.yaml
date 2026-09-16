@@ -1,0 +1,6 @@
+# Tarjeta de dashboard con la cámara en directo
+type: picture-entity
+entity: camera.entrada
+name: Entrada
+camera_view: live
+show_state: false

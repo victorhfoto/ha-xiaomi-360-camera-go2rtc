@@ -1,0 +1,28 @@
+# Ejemplo de go2rtc.yaml
+# Sustituye los valores entre <...>. La sección "xiaomi:" la crea go2rtc
+# automáticamente al iniciar sesión desde la interfaz web: no la copies de aquí.
+
+api:
+  # Protege la interfaz web y la API (las peticiones desde localhost no la piden)
+  username: "<usuario>"
+  password: "<contraseña_larga>"
+
+streams:
+  # Vídeo original de la cámara (H.265 + audio)
+  entrada:
+    - xiaomi://<ID_CUENTA>:de@<IP_CAMARA>?did=<DEVICE_ID>&model=chuangmi.camera.ipc019
+
+  # Copia en H.264 para dispositivos que no reproducen H.265
+  entrada_h264:
+    - ffmpeg:entrada#video=h264
+
+# Mantener la conexión con la cámara abierta para que el directo arranque al instante
+preload:
+  entrada:
+
+# Descomenta para depurar ffmpeg
+# log:
+#   exec: debug
+
+# xiaomi:
+#   <ID_CUENTA>: V1:...   <- lo genera go2rtc, no lo compartas nunca
